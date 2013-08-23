@@ -4,4 +4,7 @@ python:
 script: make tests
 notifications:
   email: 
-   false
+   recipients:
+     vidyac.raghav@gmail.com	
+     on_success:always
+     on_failure:always
