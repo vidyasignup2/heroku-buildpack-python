@@ -4,7 +4,4 @@ python:
 script: make tests
 notifications:
   email: 
-   recipients:
-     vidyac.raghav@gmail.com
-
-	
+   false
