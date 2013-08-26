@@ -3,8 +3,8 @@ python:
   - 2.7
 script: make tests
 notifications:
-  email: 
-   recipients:
-     vidyac.raghav@gmail.com                                                      
-    on_success:change
-     on_failure:always
+  email:
+    recipients:
+      - vidyac.raghav@gmail.com
+        on_success:always
+        on_failure:always
