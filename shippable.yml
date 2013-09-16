@@ -6,5 +6,4 @@ notifications:
   email:
     recipients:
       - vidyac.raghav@gmail.com
-    on_success:always
-    on_failure:always
+    
